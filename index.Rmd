@@ -59,8 +59,8 @@ happy %>%
     locations = ~Code,
     text = ~Country,
     frame = ~Year, 
-    colors = c("white", "lightblue", "purple"), 
-    marker = list(line = list(color = "gray", width = 0.5)),
+    colors = c("snow2", "skyblue", "purple"), 
+    marker = list(line = list(color = "orange", width = 0.5))
   ) %>% 
   colorbar(title = " ", x = 0.5, y = -0.1, thickness = 10, len = 0.6, orientation = "h", tickformat = ".0%")
 ```
@@ -92,5 +92,5 @@ Data source: Integrated Values Surveys (2022)
 
 [OurWorldInData.org/happiness-and-life-satisfaction](https://ourworldindata.org/grapher/happiness-cantril-ladder) | CC BY
 
-
+colors
 
